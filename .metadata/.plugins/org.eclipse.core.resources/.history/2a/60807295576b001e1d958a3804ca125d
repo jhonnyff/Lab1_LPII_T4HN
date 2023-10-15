@@ -1,0 +1,25 @@
+package views;
+
+import controllers.EmpleadoController;
+import models.Empleado;
+
+public class EmpleadoView {
+	public static void main(String[] args) {
+		String empleado;
+		//Create   C
+		empleado = new EmpleadoController().createEmpleado("Olivares sapata",  29, "Manuel", 3300.00,"M");
+		System.out.println(empleado);
+		
+		//Read   R
+		//empleado = new EmpleadoController().readerEmpleado(1);
+		//System.out.println(empleado);
+		
+		//Update U
+		//empleado = new EmpleadoController().updateEmpleado(1, "Olivares Zapata","Manuel Alejandro", 30, "M", 3800.50);
+		//System.out.println(empleado);
+		
+		//Delete D
+		//empleado = new EmpleadoController().deleteEmpleado(2);
+		//System.out.println(empleado);
+	}
+}

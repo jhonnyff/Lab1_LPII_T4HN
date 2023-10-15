@@ -1,0 +1,10 @@
+package models;
+
+public class Empleado {
+	private int idempleado;
+	private String apellidos;
+	private String nombres;
+	private int edad;
+	private String sexo;
+	private decimal salario;
+}

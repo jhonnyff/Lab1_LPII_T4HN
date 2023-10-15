@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+D:\CIBERTEC\4toCiclo\LPII\Clase\Examen1\.metadata\.plugins\org.eclipse.jdt.core
+509266934.index
+4259335822.index
+1111814983.index
+3480263260.index
+698210853.index
+1691696486.index
+3920834534.index
+2945747029.index
+1140882470.index
+2594535290.index
+1865797976.index
+2367191279.index
+3230622121.index
+1235970006.index
+1093098647.index
+3893545402.index
+1350978682.index
+1877072881.index
+1040154328.index
+2719095148.index
+1535177651.index

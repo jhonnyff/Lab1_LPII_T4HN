@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration>
+	<session-factory>
+		<properties>
+			<!-- MySQL -->
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url"  value="jdbc:mysql://localhost:3306/nombre_bd?serverTimezone=UTC" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password"  value="1234" />
+			<!-- Manejador Hibernate -->
+			<property name="hibernate.hbm2ddl.auto"  value="create" />
+			<property name="hibernate.dialect"  value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.show_sql"  value="true" />
+		</properties>
+	</session-factory>
+</hibernate-configuration>
